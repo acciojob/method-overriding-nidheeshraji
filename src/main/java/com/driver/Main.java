@@ -15,8 +15,8 @@ class B extends A{
 }
 public class Main {
     public static void main(String[] arg) {
-        A obj1=new A();
-        System.out.println(obj1.meth());
+       // A obj1=new A();
+        // System.out.println(obj1.meth());
         B obj = new B();
         System.out.println(obj.meth());
 
